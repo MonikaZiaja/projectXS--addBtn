@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif; }
+
+.container {
+  overflow-x: hidden; }
+
+.inputTxt__input {
+  height: 40px;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid #444;
+  border-radius: 10px;
+  outline: none;
+  transition: all .3s ease-in-out;
+  background: transparent;
+  color: #fff; }
+
+.inputTxt {
+  text-transform: uppercase;
+  padding: 10px;
+  font-weight: 300; }
+
+.menuSection {
+  background: #012327;
+  color: #fff; }
+
+.menuSection {
+  display: flex;
+  justify-content: center; }
+
+.menuSection__input {
+  padding: 20px;
+  display: flex;
+  flex-direction: column; }
+
+.headerSection, .mainSection {
+  height: 20vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #01363d;
+  overflow-x: hidden; }
+
+.headerSection__btn--click {
+  padding: 10px;
+  background: transparent;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  transition: all .3s ease-in-out;
+  box-shadow: 0 0 0 5px #01363d, 0 0 0 6px white; }
+  .headerSection__btn--click:hover {
+    background: #086b79;
+    box-shadow: 0 0 0 3px #086b79, 0 0 0 6px white, 0 0 0 9px #086b79; }
+  .headerSection__btn--click:focus {
+    outline: 0; }
+
+.mainSection {
+  min-height: 80vh;
+  background: white;
+  flex-wrap: wrap; }
+
+.mainSection__btn--each {
+  margin: 10px;
+  padding: 10px;
+  font-size: 20px;
+  color: white;
+  background: #000;
+  height: 50px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.mainSection__btn--diff {
+  margin: 10px;
+  padding: 10px;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.circle {
+  border-radius: 50%;
+  height: 50px;
+  width: 50px; }
+
+.square {
+  height: 50px;
+  width: 50px; }
+
+.rectangle {
+  height: 60px;
+  width: 40px; }
+
+.ellipse {
+  border-radius: 50%;
+  height: 60px;
+  width: 40px; }
+
+.blue {
+  color: white;
+  background: #086b79; }
+
+.red {
+  color: white;
+  background: #9b0606; }
+
+.green {
+  color: white;
+  background: #218801; }
+
+.white {
+  color: black;
+  background: white;
+  border: 1px solid black; }
+
+/*# sourceMappingURL=style.css.map */
